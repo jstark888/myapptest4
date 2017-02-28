@@ -6,6 +6,7 @@ package jstark.test;
 public class TestDao {
     private String someField = null;
     private String someField2 = null;
+    private String someField3 = null;
 
     public String getSomeField() {
         return someField;
@@ -21,5 +22,13 @@ public class TestDao {
 
     public void setSomeField2(String someField2) {
         this.someField2 = someField2;
+    }
+
+    public String getSomeField3() {
+        return someField3;
+    }
+
+    public void setSomeField3(String someField3) {
+        this.someField3 = someField3;
     }
 }
